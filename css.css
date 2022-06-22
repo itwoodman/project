@@ -1,0 +1,133 @@
+/* CSS Document */
+.position {
+	position:relative
+}
+.pimg img {
+	display:inline
+}
+.white {
+	color:#FFF
+}
+.red {
+	color:#fe3007
+}
+h2 {
+	font-size:2.6rem;
+}
+h3 {
+	font-size:2rem
+}
+.flex1 {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+	flex-flow: row wrap;
+	align-items: top;
+}
+.dev2 li {
+	width:48%;
+	float:left;
+	margin:1rem 0;
+}
+.blue_bg1 {
+	background-color: #1e4c80; /* 浏览器不支持时显示 */
+}
+.blue_bg2 {
+	background-color: #123262; /* 浏览器不支持时显示 */
+}
+h4 {
+	margin:0;
+	padding:0
+}
+.orange {
+	color:#ffd6a1
+}
+.mzx a, .mzx a:hover {
+	background:#e54914;
+	color:#fff;
+padding:.4rem 3rem;
+	border-radius:1.6rem;
+}
+.mzx1 a, .mzx1 a:hover {
+	background:#357350;
+	color:#fff;
+padding:.4rem 3rem;
+	border-radius:1.6rem;
+}
+.mzx2 a, .mzx2 a:hover {
+	
+	color:#357350;
+	background-color: white;
+padding:.4rem 3rem;
+	border-radius:1.6rem;
+}
+.yellow {
+	color:#FF0
+}
+.red_bg {
+	background:#c22b29
+}
+.yellow_bg {
+	background-color:#fedba9;
+	background-image: linear-gradient(#fedba9, #f3ae69);
+}
+.bt span {
+	background:#db251d;
+	color:#FFF;
+padding:.3rem .5rem;
+	border-radius:1rem
+}
+
+.b{font-weight: bold;}
+.p1 span{background-color: #fe3007; color: white; padding: 0 .2rem;}
+
+
+.g_line{background-color: #bbbbbb; height:.5rem; overflow: hidden;}
+
+
+.c1{color: #176a41;}
+.c2{color: #1a3124;}
+
+
+.b2{background-color: #377652;}
+.jyfx li{ width:33%;}
+.jyfx{display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;}
+.grey_bg{background-color: #f2f2f2;}	
+.blue{color: #1775fd;}
+.p2,.p3{ display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;}
+.p3 li{ width:48%; border:1px solid #1774ff}	
+
+.p2 li{ width:48%; background:#FFF}
+.p2 li p{ border-top:5px solid #1775fd}
+.p2 li p b{ display:block}
+.blue_bg{ background:#1775fd}
+.p4 p{ border:1px solid #1774ff}
+.mzx2 a,.mzx2 a:hover{color: #ec7e2c;}
+/*媒体查询，大于480px小于640px*/
+@media (min-width: 480px) and (max-width: 640px) {
+. h2 {
+font-size:2.6rem
+}
+h3 {
+ font-size:2.4rem;
+}
+}
+
+
+
+/*媒体查询，小于480px*/
+@media (max-width: 480px) {
+ h2 {
+font-size:1.8rem
+}
+h3 {
+ font-size:1.6rem
+}
+}
