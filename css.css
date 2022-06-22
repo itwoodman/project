@@ -120,14 +120,3 @@ h3 {
 }
 }
 
-
-
-/*媒体查询，小于480px*/
-@media (max-width: 480px) {
- h2 {
-font-size:1.8rem
-}
-h3 {
- font-size:1.6rem
-}
-}
